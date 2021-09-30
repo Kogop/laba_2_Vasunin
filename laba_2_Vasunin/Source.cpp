@@ -45,8 +45,10 @@ bool IsEasyNumber(int x) {
 
 
 int main() {
+	cout << "Vvedite celoe 4islo" << endl;
 	cin >> n;
 	cout << EasyNumber(n) << endl;
+	cout << " 1 - prostoe, 0 - net" << endl;
 	cout << IsEasyNumber(EasyNumber(n)) << endl;
 
 
